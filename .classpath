@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="BD"/>
+	<classpathentry kind="src" path="Extras"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="BD/jcalendar-1.4.jar"/>
+	<classpathentry kind="lib" path="BD/jgoodies-common-1.2.0.jar"/>
+	<classpathentry kind="lib" path="BD/jgoodies-looks-2.4.1.jar"/>
+	<classpathentry kind="lib" path="BD/junit-4.6.jar"/>
+	<classpathentry kind="lib" path="BD/openjpa-all-3.0.0.jar"/>
+	<classpathentry kind="lib" path="BD/postgresql-42.2.4.jar"/>
+	<classpathentry kind="lib" path="BD/jgoodies-forms-1.8.0-sources.jar"/>
+	<classpathentry kind="lib" path="BD/jgoodies-forms-1.8.0.jar"/>
+	<classpathentry kind="lib" path="BD/miglayout-src.zip"/>
+	<classpathentry kind="lib" path="BD/miglayout15-swing.jar"/>
+	<classpathentry kind="lib" path="BD/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="BD/commons-digester-2.1.jar"/>
+	<classpathentry kind="lib" path="BD/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="BD/itext-pdfa-5.5.4.jar"/>
+	<classpathentry kind="lib" path="BD/itextpdf-5.5.4.jar"/>
+	<classpathentry kind="lib" path="BD/jasperreports-6.7.0.jar"/>
+	<classpathentry kind="lib" path="BD/NefAnimacion_v2.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

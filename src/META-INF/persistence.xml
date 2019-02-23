@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="AlmacenDeRopaJPA">
+		<class>modeloEntidades.Abono</class>
+		<class>modeloEntidades.Banco</class>
+		<class>modeloEntidades.Caja</class>
+		<class>modeloEntidades.Categoria</class>
+		<class>modeloEntidades.Cheque</class>
+		<class>modeloEntidades.Cliente</class>
+		<class>modeloEntidades.Cuenta</class>
+		<class>modeloEntidades.CuentaPorCobrar</class>
+		<class>modeloEntidades.CuentasPorPagar</class>
+		<class>modeloEntidades.Deposito</class>
+		<class>modeloEntidades.Detallefactura</class>
+		<class>modeloEntidades.DevolucionDeCliente</class>
+		<class>modeloEntidades.Devolucionesasocio</class>
+		<class>modeloEntidades.Factura</class>
+		<class>modeloEntidades.MovimientosBancario</class>
+		<class>modeloEntidades.Notaentrega</class>
+		<class>modeloEntidades.NotaentregaBodega</class>
+		<class>modeloEntidades.Retiro</class>
+		<class>modeloEntidades.Socio</class>
+		<class>modeloEntidades.Telefono</class>
+		<class>modeloEntidades.VistaCaja</class>
+		<class>modeloEntidades.VistaCheque</class>
+		<class>modeloEntidades.VistaCuenta</class>
+		<class>modeloEntidades.VistaCuentasCobrada</class>
+		<class>modeloEntidades.VistaCuentasPagada</class>
+		<class>modeloEntidades.VistaCuentasPorCobrar</class>
+		<class>modeloEntidades.VistaDeposito</class>
+		<class>modeloEntidades.Bodega</class>
+		<class>modeloEntidades.VistaBodega</class>
+		<class>modeloEntidades.VistaDetalleNotaentrega</class>
+		<class>modeloEntidades.VistaDetallefactura</class>
+		<class>modeloEntidades.VistaDevolucionDeCliente</class>
+		<class>modeloEntidades.VistaDevolucionesASocio</class>
+		<class>modeloEntidades.VistaFactura</class>
+		<class>modeloEntidades.VistaNotaentrega</class>
+		<class>modeloEntidades.Usuario</class>
+		<properties>
+			<property name="openjpa.RuntimeUnenhancedClasses" value="supported"/>
+			<property name="openjpa.ConnectionDriverName" value="org.postgresql.Driver"/>
+			<property name="openjpa.ConnectionURL" value="jdbc:postgresql://127.0.0.1:5432/AlmacenDeRopa3"/>
+			<property name="openjpa.ConnectionUserName" value="postgres"/>
+			<property name="openjpa.ConnectionPassword" value="PDmyLove.!21"/>
+		</properties>
+	</persistence-unit>
+</persistence>
