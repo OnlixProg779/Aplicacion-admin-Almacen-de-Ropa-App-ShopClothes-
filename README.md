@@ -1,5 +1,6 @@
 # Aplicacion-admin-Almacen-de-Ropa-App-ShopClothes-
-App MVC, postgres, JAVA
+App MVC, postgres, JAVA, persistencia con JPA
+
 English:
 This is version 1.0 of an app that runs a clothing store,
 does not work with suppliers, works with partners who leave 
